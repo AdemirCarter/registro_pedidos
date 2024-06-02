@@ -11,6 +11,12 @@ body html {
     width: 100vh;
 }
 
+body {
+    background-image: url('black-coffee-break-break-time-brewed-coffee.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 h1 {
     text-align: center;
 }
