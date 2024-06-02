@@ -120,3 +120,127 @@ limpar2.addEventListener('click', function() {
     valor2 = 0
     mesa2.textContent = 'mesa 2 - R$ ' + valor2
 });
+
+//-------------- mesa 3
+
+let valor3 = 0
+let mesa3 = document.querySelector('.titulo3')
+
+mesa3.textContent = 'mesa 3 - R$ ' + valor3
+
+let pastel3 = document.querySelector('.pastel3')
+let bolo3 = document.querySelector('.bolo3')
+let caldo3 = document.querySelector('.caldo3')
+let wolga3 = document.querySelector('.wolga3')
+let bebida1_3 = document.querySelector('.b250-3')
+let bebida2_3 = document.querySelector('.b600-3')
+let bebida3_3 = document.querySelector('.b1l-3')
+let agua3 = document.querySelector('.agua3')
+let limpar3 = document.querySelector('.limpar3')
+
+pastel3.addEventListener('click', function() {
+    valor3 += 3
+    mesa3.textContent = 'mesa 3 - R$ ' + valor3
+});
+
+bolo2.addEventListener('click', function() {
+    valor3 += 3
+    mesa3.textContent = 'mesa 3 - R$ ' + valor3
+});
+
+caldo3.addEventListener('click', function() {
+    valor3 += 2
+    mesa3.textContent = 'mesa 3 - R$ ' + valor3
+});
+
+wolga3.addEventListener('click', function() {
+    valor3 += 2
+    mesa3.textContent = 'mesa 3 - R$ ' + valor3
+});
+
+bebida1_3.addEventListener('click', function() {
+    valor3 += 3.5
+    mesa3.textContent = 'mesa 3 - R$ ' + valor3
+});
+
+bebida2_3.addEventListener('click', function() {
+    valor3 += 6
+    mesa3.textContent = 'mesa 3 - R$ ' + valor3
+});
+
+bebida3_2.addEventListener('click', function() {
+    valor3 += 8
+    mesa3.textContent = 'mesa 3 - R$ ' + valor3
+});
+
+agua3.addEventListener('click', function() {
+    valor3 += 2
+    mesa3.textContent = 'mesa 3 - R$ ' + valor3
+});
+
+limpar3.addEventListener('click', function() {
+    valor3 = 0
+    mesa3.textContent = 'mesa 3 - R$ ' + valor3
+});
+
+//-------------- mesa 4
+
+let valor4 = 0
+let mesa4 = document.querySelector('.titulo4')
+
+mesa4.textContent = 'mesa 4 - R$ ' + valor4
+
+let pastel4 = document.querySelector('.pastel4')
+let bolo4 = document.querySelector('.bolo4')
+let caldo4 = document.querySelector('.caldo4')
+let wolga4 = document.querySelector('.wolga4')
+let bebida1_4 = document.querySelector('.b250-4')
+let bebida2_4 = document.querySelector('.b600-4')
+let bebida3_4 = document.querySelector('.b1l-4')
+let agua4 = document.querySelector('.agua4')
+let limpar4 = document.querySelector('.limpar4')
+
+pastel4.addEventListener('click', function() {
+    valor4 += 3
+    mesa4.textContent = 'mesa 4 - R$ ' + valor4
+});
+
+bolo4.addEventListener('click', function() {
+    valor4 += 3
+    mesa4.textContent = 'mesa 4 - R$ ' + valor4
+});
+
+caldo4.addEventListener('click', function() {
+    valor4 += 2
+    mesa4.textContent = 'mesa 4 - R$ ' + valor4
+});
+
+wolga4.addEventListener('click', function() {
+    valor4 += 2
+    mesa4.textContent = 'mesa 4 - R$ ' + valor4
+});
+
+bebida1_4.addEventListener('click', function() {
+    valor4 += 3.5
+    mesa4.textContent = 'mesa 4 - R$ ' + valor4
+});
+
+bebida2_4.addEventListener('click', function() {
+    valor4 += 6
+    mesa4.textContent = 'mesa 4 - R$ ' + valor4
+});
+
+bebida3_4.addEventListener('click', function() {
+    valor4 += 8
+    mesa4.textContent = 'mesa 4 - R$ ' + valor4
+});
+
+agua4.addEventListener('click', function() {
+    valor4 += 2
+    mesa4.textContent = 'mesa 4 - R$ ' + valor4
+});
+
+limpar4.addEventListener('click', function() {
+    valor4 = 0
+    mesa4.textContent = 'mesa 4 - R$ ' + valor4
+});
