@@ -3,52 +3,63 @@
 * {
     padding: 10px 0px;
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-image: url(2276716-fundo-geometrico-abstrato-em-plano-design-vetor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 400px;
-    height: 1280px;
+    height: 2000px;
 }
 
 h1 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 20px;
     background: none;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 255, 0);
     border-radius: 20px;
+    box-shadow: 0 0 5px rgb(83, 255, 3);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .mesa1, .mesa2, .mesa3, .mesa4 {
     padding: 20px 20px;
-    font-size: 20px;
+    color: white;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .opcoes1 p, .opcoes2 p, .opcoes3 p, .opcoes4 p {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 15px; 
     font-weight: 300;
     padding: 0px 0px;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 5px;
+    box-shadow: 0 0 5px rgb(9, 255, 0);
     padding: 5px 5px;
+    text-shadow: 0 0 4px black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 button {
-    padding: 0px 0px;
-    background-color: rgba(9, 255, 0, 0.425);
-    padding: 2px;
+    background-color: rgb(9, 255, 0);
+    padding: 4px;
     border: none;
     border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .limpar1, .limpar2, .limpar3, .limpar4 {
     text-align: center;
-    background: rgb(87, 190, 87);
+    background: rgb(112, 255, 112);
     border: none;
     border-radius: 10px;
     color: rgb(0, 0, 0);
-    padding: 5px;
+    padding: 8px;
+    box-shadow: 0 0 5px black;
+    font-family: Arial, Helvetica, sans-serif;
 }
